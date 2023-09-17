@@ -25,6 +25,7 @@ erl_crash.dump
 
 /env/local.env
 /env/prod.env
+.env
 
 /vendor/
 /uploads/images/

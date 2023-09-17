@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "outDir": "./built",
     "moduleResolution": "node",
     "target": "es5",
     "jsx": "react",
@@ -10,5 +11,10 @@
     "skipDefaultLibCheck": true,
     "lib": ["es2015", "dom"]
   },
-  "include": ["js/**/*"]
+  "include": ["js/**/*"],
+  "exclude": [
+    "./plugins/**/*",
+    "./typings/**/*",
+    "./built/**/*"
+  ]
 }
